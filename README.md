@@ -22,3 +22,8 @@ Este proyecto implementa un sistema de pedidos para un restaurante utilizando No
    ```bash
    git clone https://github.com/tu_usuario/tu_repositorio.git
    cd tu_repositorio
+
+2. **instala las dependencias**
+   ```bash
+   npm install express mysql body-parser
+
