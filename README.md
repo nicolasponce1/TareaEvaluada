@@ -27,7 +27,24 @@ Este proyecto implementa un sistema de pedidos para un restaurante utilizando No
    ```bash
    npm install express mysql body-parser
 
-3. Configuración de la Base de Datos con XAMPP:
+3. Estructura
+   ```bash
+   /restaurant-order
+   |-- /db
+   |   |-- connection.js
+   |-- /models
+   |   |-- order.js
+   |-- /public
+   |   |-- styles.css
+   |   |-- scripts.js
+   |   |-- index.html
+   |-- /routes
+   |   |-- orders.js
+   |-- app.js
+   |-- package.json
+   |-- README.md
+
+4. Configuración de la Base de Datos con XAMPP:
 
 Asegúrate de tener XAMPP instalado y en ejecución.
 
@@ -37,12 +54,17 @@ Abre phpMyAdmin desde el panel de control de XAMPP.
 
 Crea una nueva base de datos llamada restaurant.
 
-4. Configuracion del entorno
-   ```bash
-   PORT=3002
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASSWORD= # Si tienes una contraseña configurada para MySQL, agrégala aquí
-   DB_NAME=restaurant
+```bash
+CREATE DATABASE restaurant;
+USE restaurant;
+CREATE TABLE orders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    table_number INT NOT NULL,
+    items TEXT NOT NULL,
+    subtotal DECIMAL(10, 2) NOT NULL,
+    total DECIMAL(10, 2) NOT NULL
+);
+
+
 
 
