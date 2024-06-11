@@ -30,7 +30,10 @@ Este proyecto implementa un sistema de pedidos para un restaurante utilizando No
 3. Configuración de la Base de Datos con XAMPP:
 
 Asegúrate de tener XAMPP instalado y en ejecución.
+
 Abre el panel de control de XAMPP y enciende Apache y MySQL.
+
 Abre phpMyAdmin desde el panel de control de XAMPP.
+
 Crea una nueva base de datos llamada restaurant.
 
