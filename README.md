@@ -85,6 +85,15 @@ Recibirás un mensaje de confirmación con el ID del pedido creado.
 
      ![image](https://github.com/nicolasponce1/TareaEvaluada/assets/171303513/7621ea13-1c03-4db0-a98e-4ee6e71007e9)
 
+   2. Pedido ingresado
+
+      ![image](https://github.com/nicolasponce1/TareaEvaluada/assets/171303513/cd9bb03b-8d71-46f2-8e6e-8e13211c1cc9)
+
+   3. Mensaje de exito y nos otorga la ID del pedido
+      ![image](https://github.com/nicolasponce1/TareaEvaluada/assets/171303513/53f1fc5b-cbd4-4b21-a187-9511a280aa65)
+
+
+
 
 
 
