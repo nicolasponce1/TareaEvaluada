@@ -37,3 +37,12 @@ Abre phpMyAdmin desde el panel de control de XAMPP.
 
 Crea una nueva base de datos llamada restaurant.
 
+4. Configuracion del entorno 
+   .env
+   PORT=3002
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD= # Si tienes una contraseña configurada para MySQL, agrégala aquí
+DB_NAME=restaurant
+
+
