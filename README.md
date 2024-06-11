@@ -46,6 +46,17 @@ Este proyecto implementa un sistema de pedidos para un restaurante utilizando No
 
 4. Configuración de la Base de Datos con XAMPP:
 
+   ```bash
+   CREATE DATABASE restaurant;
+   USE restaurant;
+   CREATE TABLE orders (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       table_number INT NOT NULL,
+       items TEXT NOT NULL,
+       subtotal DECIMAL(10, 2) NOT NULL,
+       total DECIMAL(10, 2) NOT NULL
+   ); 
+
 Asegúrate de tener XAMPP instalado y en ejecución.
 
 Abre el panel de control de XAMPP y enciende Apache y MySQL.
@@ -54,16 +65,35 @@ Abre phpMyAdmin desde el panel de control de XAMPP.
 
 Crea una nueva base de datos llamada restaurant.
 
-```bash
-CREATE DATABASE restaurant;
-USE restaurant;
-CREATE TABLE orders (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    table_number INT NOT NULL,
-    items TEXT NOT NULL,
-    subtotal DECIMAL(10, 2) NOT NULL,
-    total DECIMAL(10, 2) NOT NULL
-);
+5.Inicia la web:
+
+      node app.js
+
+
+6. Abre tu navegador y navega a http://localhost:3003 para ver el formulario de pedidos.
+
+USO
+
+Completa el formulario de pedidos en la página principal.
+Haz clic en "Enviar Pedido" para enviar el pedido al servidor.
+El servidor calculará el total del pedido y lo almacenará en la base de datos.
+Recibirás un mensaje de confirmación con el ID del pedido creado.
+
+7. Capturas de La interfaz del Usuario
+
+   1. Crear pedido
+
+     ![image](https://github.com/nicolasponce1/TareaEvaluada/assets/171303513/7621ea13-1c03-4db0-a98e-4ee6e71007e9)
+
+
+
+
+
+
+
+
+
+
 
 
 
