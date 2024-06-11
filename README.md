@@ -92,6 +92,11 @@ Recibirás un mensaje de confirmación con el ID del pedido creado.
    3. Mensaje de exito y nos otorga la ID del pedido
       ![image](https://github.com/nicolasponce1/TareaEvaluada/assets/171303513/53f1fc5b-cbd4-4b21-a187-9511a280aa65)
 
+8. Corroboracion de registro en Base de Datos
+
+   ![image](https://github.com/nicolasponce1/TareaEvaluada/assets/171303513/1fa6a524-b15f-4e23-aa81-55d736e2732c)
+
+
 
 
 
